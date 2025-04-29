@@ -1,40 +1,24 @@
-<!-- código omitido -->
-<body>
-  <header class="container">
-    <img src="img/avatar-perfil.png" alt="avatar de Thaeme Lima" srcset="" />
-    <p>Eu sou Thaeme Lima</p>
-    <h1>Eu enstudo no ensino medio</h1>
-    <p>
-      Sou aluna do ensino medio
-      uso HTML, CSS e JavaScript. Veja os projetos que já
-      desenvolvi
-    </p>
-    <p>Minhas habilidades</p>
-    <p> gosto de conversar, cozinhar e sair.<p>
-    <div>
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>JavaScript</p>
-      <p>Scratch</p>
-    </div>
-  </header>
-</body>
-<body>
-    <!-- Código omitido -->
-        <div>
-            <p class="badge bg-secondary">HTML</p>
-            <p class="badge bg-secondary">CSS</p>
-            <p class="badge bg-secondary">JavaScript</p>
-            <p class="badge bg-secondary">Scratch</p>
-        </div>
-    <!-- Código omitido -->
-</body>
-  <!-- Código omitido -->
-  <div>
-    <p class="badge bg-secondary">HTML</p>
-    <p class="badge bg-secondary">CSS</p>
-    <p class="badge bg-secondary">JavaScript</p>
-    <p class="badge bg-secondary">Scratch</p>
-  </div>
-  <!-- Código omitido -->
-</body>
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #284260;
+    --cor-destaque: #C92BFC;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
